@@ -8,3 +8,6 @@ J'ai essayé de faire les exercices de 02-git-II.pdf. J'ai eu quelques diffcult�
 
 # 20221012
 Etant absente lors de cette séance à cause d'une petite maladie dont je me passerai bien, j'ai essayé de continuer la fiche d'exerices 02-git-II. Cependant, pour l'exercice 3, je ne sais pas si la série de commit que nous devons faire dans le fichier "oups.md" doit être fait pendant la séance ou non, je me suis donc ravisée. Mon binôme pour le projet, Laura, a crée un repositorie "projetlauracamilleS1" que j'ai cloné.
+
+# 20221018
+Nous avons réfléchi avec Laura à un mot qui pourrait être intéressant dans nos langues étudiées, càd chinois pour elle et coréen pour moi. Nous nous sommes arrêtées sur le mot lire, suite à ce choix de mot, nous avons poussée notre réfléxion avec comme questions "Lisons-nous moins ou est-ce une impression ?", "Est-ce que lire sur téléphone ou sur papier engendre-t-il une différence sur la perception du mot lire ?" avec comme sous questions "qu'est-ce qui a accéléré cette évolution vers la lecture numérique ?" ou "quelle tranche d'âge est impactée ?". Après cela, nous avons enregistré notre avancement sur le journal de bord de notre projet.
