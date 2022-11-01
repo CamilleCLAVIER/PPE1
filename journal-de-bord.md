@@ -12,5 +12,5 @@ Etant absente lors de cette séance à cause d'une petite maladie dont je me pas
 # 20221018
 Nous avons réfléchi avec Laura à un mot qui pourrait être intéressant dans nos langues étudiées, càd chinois pour elle et coréen pour moi. Nous nous sommes arrêtées sur le mot lire, suite à ce choix de mot, nous avons poussée notre réfléxion avec comme questions "Lisons-nous moins ou est-ce une impression ?", "Est-ce que lire sur téléphone ou sur papier engendre-t-il une différence sur la perception du mot lire ?" avec comme sous questions "qu'est-ce qui a accéléré cette évolution vers la lecture numérique ?" ou "quelle tranche d'âge est impactée ?". Après cela, nous avons enregistré notre avancement sur le journal de bord de notre projet.
 
-#20221101
+# 20221101
 J'ai crée un dossier afin de rassembler tous les fichier bash. J'ai tenté de faire l'exercice pour les lieux les plus fréquents, mais je ne sais pas comment exécuter le script pour qu'il me retire les informations des fichiers que je veux. Je ne sais pas si c'est très clair... J'ai également essayé de commencé le script pour trier les urls, mais je ne sais pas encore comment écrire la condition pour l'encodage.
