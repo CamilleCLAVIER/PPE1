@@ -12,6 +12,13 @@
 fichier_urls=$1 # le fichier d'URL en entrée
 fichier_tableau=$2 # le fichier HTML en sortie
 
+#si fichier tableau n'existe pas
+if (! -f $2)
+then 
+	echo "fichier tableau non trouver";
+	exit
+fi
+
 # !!!!!!
 # ici on doit vérifier que nos deux paramètres existent, sinon on ferme!
 # !!!!!!
@@ -23,6 +30,9 @@ lineno=1;
 
 while read -r line;
 do
+	curl=$(curl -sIL $line)
+	grep=$(grep "HTTP/1.1 200")
+	
 	echo "ligne $lineno: $line";
 	lineno=$((lineno+1));
 done < $fichier_urls
