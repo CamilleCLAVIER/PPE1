@@ -14,3 +14,6 @@ Nous avons réfléchi avec Laura à un mot qui pourrait être intéressant dans 
 
 # 20221101
 J'ai crée un dossier afin de rassembler tous les fichier bash. J'ai tenté de faire l'exercice pour les lieux les plus fréquents, mais je ne sais pas comment exécuter le script pour qu'il me retire les informations des fichiers que je veux. Je ne sais pas si c'est très clair... J'ai également essayé de commencé le script pour trier les urls, mais je ne sais pas encore comment écrire la condition pour l'encodage.
+
+# 20221115
+J'ai tenté de faire l'exercice 2 du td "urls_exercices" mais j'ai quelques difficultés. J'aimerai afficher l'entête mais je n'y arrive pas. 
