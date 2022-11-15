@@ -8,16 +8,8 @@
 # La forme est indicative, sentez-vous libres d'en changer !
 # Notamment pour quelque chose de plus léger, il n'y a pas de norme en bash.
 #===============================================================================
-
 fichier_urls=$1 # le fichier d'URL en entrée
 fichier_tableau=$2 # le fichier HTML en sortie
-
-#si fichier tableau n'existe pas
-if (! -f $2)
-then 
-	echo "fichier tableau non trouver";
-	exit
-fi
 
 # !!!!!!
 # ici on doit vérifier que nos deux paramètres existent, sinon on ferme!
@@ -30,9 +22,13 @@ lineno=1;
 
 while read -r line;
 do
-	curl=$(curl -sIL $line)
-	grep=$(grep "HTTP/1.1 200")
-	
+	if [[ $line="^https?://" ]];
+	header=$(curl $line -I);
+	grep=$(grep "*HTTP/1.1 200" $header);
+	echo "ligne $lineno: $line : $header";
+	lineno=$((lineno+1));
+	fi
+
 	echo "ligne $lineno: $line";
 	lineno=$((lineno+1));
 done < $fichier_urls
