@@ -23,12 +23,11 @@ lineno=1;
 while read -r line;
 do
 	if [[ $line="^https?://" ]];
-	header=$(curl $line -I);
-	grep=$(grep "*HTTP/1.1 200" $header);
-	echo "ligne $lineno: $line : $header";
+	header=$(curl -sIL $line);
+	#grep=$(grep "*HTTP/1.1 200" $header);
+	echo "ligne $lineno:" >> fichier_in_utile.txt;
+	echo $header >> fichier_in_utile.txt;
 	lineno=$((lineno+1));
 	fi
-
-	echo "ligne $lineno: $line";
-	lineno=$((lineno+1));
+	
 done < $fichier_urls
