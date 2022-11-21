@@ -17,3 +17,8 @@ J'ai crée un dossier afin de rassembler tous les fichier bash. J'ai tenté de f
 
 # 20221115
 J'ai tenté de faire l'exercice 2 du td "urls_exercices" mais j'ai quelques difficultés. J'aimerai afficher l'entête mais je n'y arrive pas. 
+
+# 20221121
+Alors j'ai oublié de mettre à jour mon journal la semaine dernière. Avec Laura on a avancé sur le td url, en se repartissant la partie bash pour elle et html pour moi. En sachant qu'on s'explique à chaque fois ce que l'autre  fait pour comprendre ce que l'autre a écrit pour ne pas finir larguer d'un côté ou de l'autre. Je me suis donc chargée de faire une esquisse d'un tableau.
+J'avais un problème avec ma clef ssh que j'avais mis sous le tapis, en créant un autre mot de passe que je devais écrire à chaque push. Je me suis donc confrontée au problème que j'ai résolu aujourd'hui en écrivant dans mon terminal "ssh-keyscan github.com >> ~/.ssh/known_hosts".
+On nous a signalé un problème pour le lien de notre tableau dans le fichier "index.html" dans notre projet avec Laura, que nous avons résolu en prenant appuie sur le fichier "index.html" du PPE. Au lieu de mettre le lien de mon pc, nous avons mis le nom du fichier tel qu'il est nommé dans notre git du projet.
