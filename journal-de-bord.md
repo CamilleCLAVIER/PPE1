@@ -30,7 +30,7 @@ Afin d'avancer sur l'exercice 3 de la partie 2 du TD urls, j'ai du regarder quel
 ## 2022/12/14
 J'ai oublié la semaine dernière de mettre à jour mon journal de bord. Laura s'est occupé de rendre le site plus présentable et de mon côté j'étais chargée de faire le script pour les concordances. J'avais remarqué un problème au niveau des dumps et des contextes, qui était qu'on voyait la redirection des différents fichiers dans le chaque fichier texte. J'ai résolu ce problème aujourd'hui en mettant des guillemets comme suit : "$dump". J'ai maintenant un problème au niveau des concordances où il n'y a soit aucun contexte, soit un contexte seulement à gauche et pas sur tous les mots. J'ai une piste pour résoudre ce problème, compter les parenthèses de ma regex et à la place du "\3" dans mon scrpit concordance, mettre le nombre de parenthèse. A essayer.
 
-## 2022/01/04
+## 2023/01/04
 J'ai fini par changer de mon expression régulière, voici ma nouvelle expression (pour l'instant) : 
 regexp="읽\w+|독서\w+"
 J'ai décidé de retirer cette expression : 
