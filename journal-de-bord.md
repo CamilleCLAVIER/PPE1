@@ -42,4 +42,9 @@ Laura a ajouté un script pour tokeniser le chinois et je ne sais pas pourquoi d
 ##2023/01/06
 Voilà la version finale de mon expression régulière : 읽[^지|기]\w+|읽지\s않는\w+|독서\w+. Elle m'évite d'avoir le motif avec la négation 지 en doublons et le nom 'lecture' 읽기.
 On a rencontré un problème dans notre regexp. Une fois que j'ajoutais la mienne à celle chinoise elle faisait buggé la tokenisation en chinois et les concordances en chinois perdait leur contexte droit. Donc nous avons fait une condition pour chaque langue, et cela a réglé le problème. Je me suis occupée de trouver les 50 urls en français. Nous nous en sommes occupés en dernier car on a supposé que le script s'il fonctionnait avec le coréen(qui contient aussi des espaces avant et après un mot), il fonctionnerait avec le français. Nous avons créer un script pour les stopwords avec des conditions et des fichiers stopword pour chaque langues. Nous avons aujourd'hui les fichiers contexte et dumps-text finaux pour chaque langue, il "ne reste plus qu'à" les étudier avec itrameur. J'ai également mis une nouvelle photo pour l'accueil du site.
+
+##2023/01/08
+Hier, j'ai nettoyé les concordances et dumps-text français et coréen des stopwords et j'ai fait mes analyses itrameurs. 
+Aujourd'hui, j'ai fait les nuages de mots pour le français et le coréen. J'ai aussi ajouté une nouvelle partie "Diffcultés rencontrées" dans l'accueil de notre site.
+Pour les nuages de mots, j'ai été contrainte de supprimer d'autres mots en plus des stopwords. Pour le français j'ai supprimé les prénoms/nom de personne et pour le coréen, j'ai suprromé les déclinaisons des verbes lire et livre obstruait la clarté du nuage de mot.
 >>>>>>> refs/remotes/origin/main
