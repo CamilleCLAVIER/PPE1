@@ -24,7 +24,6 @@ J'avais un problème avec ma clef ssh que j'avais mis sous le tapis, en créant 
 On nous a signalé un problème pour le lien de notre tableau dans le fichier "index.html" dans notre projet avec Laura, que nous avons résolu en prenant appuie sur le fichier "index.html" du PPE. Au lieu de mettre le lien de mon pc, nous avons mis le nom du fichier tel qu'il est nommé dans notre git du projet.
 
 ## 2022/11/27
-<<<<<<< HEAD
 Afin d'avancer sur l'exercice 3 de la partie 2 du TD urls, j'ai du regarder quelles formes existaient dans mes urls pour mes deux verbes(읽다/독서하다) en coréen. Je me suis rendue compte que pour mon second verbe, le nom était bien plus présent que le verbe, pour lequel je n'ai distingué que 3 formes différentes au total sur toutes mes urls. Comme nous travaillons sur le verbe "lire" et non le nom "lecture", je n'ai pas pris en compte les occurences du nom "lecture" de mes deux verbes (일기/독서). Après avoir relevé toutes les formes verbales, j'ai commencé à écrire sur papier les différentes expressions régulières qui avaient, après le radical, une première syllabe commune. Pourquoi ? Parce qu'en coréen, les expressions grammaticales s'agglutinent entres-elles, il m'est donc plus facile de faire plusieurs petites expressions afin de les complexifier petit à petit, afin de n'en former qu'une seule. Il ne me reste plus qu'à faire mon expression régulière finale.
 
 ## 2022/12/14
@@ -52,5 +51,4 @@ Pour les nuages de mots, j'ai été contrainte de supprimer d'autres mots en plu
 
 ## 2023/01/09
 Je me suis occupée de l'analyse des nuages de mots dans toutes les langues (sûrement que Laura relira et révisera la partie concernant chinois, car mis à part les sinogrammes vu en licence de coréen je ne sais pas grand chose de plus...).
-On s'est pas mal occupée de la mise en page du site également. Je me suis chargée de la mise en page de la page itrameur pour le coréen et j'ai relu la page d'accueil et les scripts pour répérer et corriger les quelques fautes éventuelles(à part pour le mot 'occurence' dans le script que je n'ai pas corrigé par 'occurrence' car je n'avais pas envie de modifier quelque chose et que ça plombe le programme, je l'ai juste corrigé en commentaire). 
->>>>>>> refs/remotes/origin/main
+On s'est pas mal occupée de la mise en page du site également. Je me suis chargée de la mise en page de la page itrameur pour le coréen et j'ai relu la page d'accueil et les scripts pour répérer et corriger les quelques fautes éventuelles(à part pour le mot 'occurence' dans le script que je n'ai pas corrigé par 'occurrence' car je n'avais pas envie de modifier quelque chose et que ça plombe le programme, je l'ai juste corrigé en commentaire).
